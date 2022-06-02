@@ -4,5 +4,5 @@ if (typeof NHack !== 'undefined') {
     } else throw new Error('NHack already loaded.');
 }
 var NHack = {
-    Game.ClickCookie();
+    Game:ClickCookie();
 }
